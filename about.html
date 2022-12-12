@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css" class="css">
+
+    <title>ABOUT|UNIVERSITY</title>
+</head>
+<body>
+    <!---course--->
+    <section class="header2">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu"></i>
+        </nav>
+<div class="text-box">
+    <h1>World's Biggest University</h1>
+    <p>Making website is now one of the easiest thing in the world. You
+        just need to learn HTML, CSS,<br> Javascript and you are good to go.
+    </p>
+        <a href="./index.html" class="hero-btn">Back TO Home</a>
+</div>
+ </section>
+
+
+<section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+       <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque aliquet turpis nulla, eleifend faucibus est
+                sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+                Donec sit.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque aliquet turpis nulla, eleifend faucibus est
+                sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+                Donec sit.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-Graduate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque aliquet turpis nulla, eleifend faucibus est
+                sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+                Donec sit.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- call to action-->
+<section class="cta">
+    <hl>Enroll For Our Various Online Courses Anywhere From The
+    World</h1>
+    <br>
+    <a href="tel:984-974-0213" id="contact" class="hero-btn">CONTACT US</a>
+</section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repudiandae at, <br>sapiente dolorum fugit corporis.</p>
+
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+                
+</div>
+<p>Made with <i class="fa fa-heart-o"></i> HTML CSS JAVASCRIPT</p>
+</section>
+    
+ <script>
+    var  navLinks = document.getElementById("navLinks");
+
+       function showMenu(){
+           navLinks.style.right = "0";
+       }
+       function hideMenu (){
+           navLinks.style.right="-200px";
+       }
+</script>
+
+</body>
+</html>
